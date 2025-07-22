@@ -37,11 +37,9 @@ Summary of model performance and insights.
 - Deployment as a web service or API  
 - Incorporating real-time data streams  
 
-## License
 
-MIT License
 # Telecom Customer Churn Prediction
-# Telecom Customer Churn Prediction
+
 
 This project analyzes customer churn data from a telecom company using machine learning.  
 The goal is to predict which customers are likely to leave the service.
@@ -62,7 +60,7 @@ The goal is to predict which customers are likely to leave the service.
 
 ## Models Comparison Chart
 
-![Model Comparison](images/comparison_chart.png)
+![Model Comparison](images/model_comparison_chart.png)
 
 
 | Model             | Accuracy | Precision (Churn) | Recall (Churn) | F1-Score (Churn) |
@@ -83,5 +81,8 @@ Make sure you have installed the requirements:
 ```bash
 pip install -r requirements.txt
 For questions or collaborations, please contact [furkanbilmez8@gmail.com] or open an issue on GitHub.
-Thank you for visiting!
+##Thank you for visiting!
 Your feedback and contributions are welcome.
+## License
+
+MIT License
