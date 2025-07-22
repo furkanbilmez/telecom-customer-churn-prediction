@@ -41,3 +41,41 @@ Summary of model performance and insights.
 
 MIT License
 # Telecom Customer Churn Prediction
+# Telecom Customer Churn Prediction
+
+This project analyzes customer churn data from a telecom company using machine learning.  
+The goal is to predict which customers are likely to leave the service.
+
+## Data Visualization
+
+### Churn Distribution  
+![Churn Distribution](images/churn_distribution.png)
+
+### Gender vs Churn  
+![Gender vs Churn](images/gender_churn.png)
+
+### Monthly Charges Distribution  
+![Monthly Charges KDE Plot](images/monthly_charges_kde.png)
+
+### Correlation Matrix  
+![Correlation Matrix](images/correlation_heatmap.png)
+
+## Models and Results
+
+### Logistic Regression
+
+- Accuracy: 81.6%  
+- F1-score (churn class): 62%
+
+### XGBoost
+
+- Accuracy: 78.6%  
+- F1-score (churn class): 57%
+
+## How to Run
+
+Make sure you have installed the requirements:
+
+```bash
+pip install -r requirements.txt
+
