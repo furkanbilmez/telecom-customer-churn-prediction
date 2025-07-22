@@ -63,17 +63,6 @@ The goal is to predict which customers are likely to leave the service.
 ![Model Comparison](images/model_comparison_chart.png)
 
 
-| Model             | Accuracy | Precision (Churn) | Recall (Churn) | F1-Score (Churn) |
-|-------------------|----------|-------------------|----------------|------------------|
-| Logistic Regression| 81.6%    | 69%               | 56%            | 62%              |
-| XGBoost           | 78.6%    | 62%               | 48%            | 55%              |
-| Random Forest     | 79.2%    | 66%               | 46%            | 54%              |
-| Support Vector Machine (SVM) | 79.8% | 69%         | 46%            | 55%              |
-| Neural Network     | 75.0%    | 55%               | 45%            | 49%              |
-| Naive Bayes        | 75.0%    | 52%               | 74%            | 61%              |
-| Decision Tree      | 73.0%    | 50%               | 49%            | 50%              |
-| K-Nearest Neighbors (KNN) | 77.0%      |  60.0%        |  40.0%        |  48.0%        |
-## How to Run
 git clone https://github.com/furkanbilmez/telecom-customer-churn-prediction.git
 cd telecom-customer-churn-prediction
 Make sure you have installed the requirements:
