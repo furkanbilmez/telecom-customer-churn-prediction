@@ -61,6 +61,31 @@ The goal is to predict which customers are likely to leave the service.
 ## Models Comparison Chart
 
 ![Model Comparison](images/model_comparison_chart.png)
+Models and Descriptions
+Logistic Regression
+A popular linear classification model that estimates the likelihood of churn using customer features.
+
+XGBoost
+An advanced ensemble technique using gradient boosting of decision trees for improved prediction accuracy.
+
+Random Forest
+An ensemble of decision trees that reduces overfitting by averaging multiple trees.
+
+Support Vector Machine (SVM)
+A classifier that finds the optimal boundary separating classes in high-dimensional space.
+
+Neural Network
+A computational model inspired by the brain that captures complex nonlinear relationships.
+
+Naive Bayes
+A probabilistic classifier based on Bayes’ theorem assuming independent features.
+
+Decision Tree
+A simple, interpretable model that splits data based on feature thresholds to classify customers.
+
+K-Nearest Neighbors (KNN)
+A non-parametric method classifying data points based on the closest neighbors in the feature space.
+
 
 
 git clone https://github.com/furkanbilmez/telecom-customer-churn-prediction.git
